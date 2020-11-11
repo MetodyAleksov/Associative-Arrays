@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Associative-Arrays", "Assoc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Largest3Nums", "04.Largest3Nums\04.Largest3Nums.csproj", "{5B8676B8-9F49-44FE-A898-AE87776A6EBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.WordFilter", "05.WordFilter\05.WordFilter.csproj", "{00E583EA-18F7-43EB-A1DE-F9CDC6F4284C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5B8676B8-9F49-44FE-A898-AE87776A6EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B8676B8-9F49-44FE-A898-AE87776A6EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B8676B8-9F49-44FE-A898-AE87776A6EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E583EA-18F7-43EB-A1DE-F9CDC6F4284C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E583EA-18F7-43EB-A1DE-F9CDC6F4284C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E583EA-18F7-43EB-A1DE-F9CDC6F4284C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E583EA-18F7-43EB-A1DE-F9CDC6F4284C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
