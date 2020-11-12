@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace _04.Largest3Nums
 {
@@ -6,7 +7,22 @@ namespace _04.Largest3Nums
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] arr = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .OrderByDescending(x => x)
+                .ToArray();
+            if (arr.Length > 3)
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    Console.Write($"{arr[i]} ");
+                }
+            }
+            else
+            {
+                Console.WriteLine(string.Join(" ", arr));
+            }
         }
     }
 }
