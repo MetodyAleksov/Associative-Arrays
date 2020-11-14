@@ -13,21 +13,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.OddOccurrences", "02.Odd
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Ranking", "01.Ranking\01.Ranking.csproj", "{9818C952-3B45-4384-A565-61F493263E5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Chars", "01.Chars\01.Chars.csproj", "{48E4AA80-1F23-465D-A4B1-7FE21C044053}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Chars", "01.Chars\01.Chars.csproj", "{48E4AA80-1F23-465D-A4B1-7FE21C044053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AMinorTask", "02.AMinorTask\02.AMinorTask.csproj", "{334E09CF-BE95-4CE6-A068-8B9576F1798A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.AMinorTask", "02.AMinorTask\02.AMinorTask.csproj", "{334E09CF-BE95-4CE6-A068-8B9576F1798A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.LegendaryFarming", "03.LegendaryFarming\03.LegendaryFarming.csproj", "{72982623-9F4B-44E2-9E08-87FDD529E3C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.LegendaryFarming", "03.LegendaryFarming\03.LegendaryFarming.csproj", "{72982623-9F4B-44E2-9E08-87FDD529E3C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Orders", "04.Orders\04.Orders.csproj", "{C4F19629-8C36-406A-B231-1141D5BAEA5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Orders", "04.Orders\04.Orders.csproj", "{C4F19629-8C36-406A-B231-1141D5BAEA5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SoftUniParking", "05.SoftUniParking\05.SoftUniParking.csproj", "{FBBF229D-7B22-4131-8394-BAB61BB61C14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SoftUniParking", "05.SoftUniParking\05.SoftUniParking.csproj", "{FBBF229D-7B22-4131-8394-BAB61BB61C14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Courses", "06.Courses\06.Courses.csproj", "{7A2431F6-B725-43D8-B40B-AF86FA8DAAA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Courses", "06.Courses\06.Courses.csproj", "{7A2431F6-B725-43D8-B40B-AF86FA8DAAA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.StudentAcademy", "07.StudentAcademy\07.StudentAcademy.csproj", "{15D5FCB6-F5FE-4DD3-83E0-02E6FE8D01FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.StudentAcademy", "07.StudentAcademy\07.StudentAcademy.csproj", "{15D5FCB6-F5FE-4DD3-83E0-02E6FE8D01FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CompnayUsers", "08.CompnayUsers\08.CompnayUsers.csproj", "{1559F789-3566-4F94-8A74-4466DFB713BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.CompnayUsers", "08.CompnayUsers\08.CompnayUsers.csproj", "{1559F789-3566-4F94-8A74-4466DFB713BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ForceBook", "09.ForceBook\09.ForceBook.csproj", "{221BD056-B5D0-4BD4-9F47-6146436A3895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SoftUniExamResults", "10.SoftUniExamResults\10.SoftUniExamResults.csproj", "{06E35589-0322-4B12-9FC1-CB03ABF71384}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{1559F789-3566-4F94-8A74-4466DFB713BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1559F789-3566-4F94-8A74-4466DFB713BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1559F789-3566-4F94-8A74-4466DFB713BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221BD056-B5D0-4BD4-9F47-6146436A3895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221BD056-B5D0-4BD4-9F47-6146436A3895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221BD056-B5D0-4BD4-9F47-6146436A3895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221BD056-B5D0-4BD4-9F47-6146436A3895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E35589-0322-4B12-9FC1-CB03ABF71384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E35589-0322-4B12-9FC1-CB03ABF71384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E35589-0322-4B12-9FC1-CB03ABF71384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E35589-0322-4B12-9FC1-CB03ABF71384}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
