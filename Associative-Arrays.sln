@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SoftUniExamResults", "10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Judge", "02.Judge\02.Judge.csproj", "{98C25A44-4F3A-4F0F-953C-4336DD6D08A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MOBAChallenger", "03.MOBAChallenger\03.MOBAChallenger.csproj", "{7EB8CB81-5FC6-4A22-BB9D-C3E2E740D44E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{98C25A44-4F3A-4F0F-953C-4336DD6D08A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98C25A44-4F3A-4F0F-953C-4336DD6D08A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98C25A44-4F3A-4F0F-953C-4336DD6D08A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB8CB81-5FC6-4A22-BB9D-C3E2E740D44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB8CB81-5FC6-4A22-BB9D-C3E2E740D44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB8CB81-5FC6-4A22-BB9D-C3E2E740D44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB8CB81-5FC6-4A22-BB9D-C3E2E740D44E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
