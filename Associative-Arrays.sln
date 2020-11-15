@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ForceBook", "09.ForceBoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SoftUniExamResults", "10.SoftUniExamResults\10.SoftUniExamResults.csproj", "{06E35589-0322-4B12-9FC1-CB03ABF71384}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Judge", "02.Judge\02.Judge.csproj", "{98C25A44-4F3A-4F0F-953C-4336DD6D08A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{06E35589-0322-4B12-9FC1-CB03ABF71384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06E35589-0322-4B12-9FC1-CB03ABF71384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06E35589-0322-4B12-9FC1-CB03ABF71384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C25A44-4F3A-4F0F-953C-4336DD6D08A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C25A44-4F3A-4F0F-953C-4336DD6D08A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C25A44-4F3A-4F0F-953C-4336DD6D08A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C25A44-4F3A-4F0F-953C-4336DD6D08A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
