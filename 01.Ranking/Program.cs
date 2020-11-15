@@ -9,60 +9,83 @@ namespace _01.Ranking
     {
         static void Main(string[] args)
         {
-            Dictionary<string, string> contests = new Dictionary<string, string>();
-            string[] command = Console.ReadLine()
+            //Passwords for courses
+            Dictionary<string, string> contestPasswords = new Dictionary<string, string>();
+            //Storing the contests contestatants participate in
+            Dictionary<string, Dictionary<string, int>> contestsDataBase = new Dictionary<string, Dictionary<string, int>>();
+
+            string[] input = Console.ReadLine()
                 .Split(":", StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
-            while(command[0] != "end of contests")
+            //Declaring the passwords
+            while(input[0] != "end of contests")
             {
-                string contest = command[0];
-                string password = command[1];
-
-                contests.Add(contest, password);
-     
-                command = Console.ReadLine()
+                contestPasswords.Add(input[0], input[1]);
+                input = Console.ReadLine()
                 .Split(":", StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
             }
-            List<Contestant> players = new List<Contestant>();
-            string[] cmd = Console.ReadLine()
-                .Split("=>")
+            input = Console.ReadLine()
+                .Split("=>", StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
-            while (cmd[0] != "end of submissions")
+            //Entering the contestants and their results
+            while (input[0] != "end of submissions")
             {
-                string contest = cmd[0];
-                string password = cmd[1];
-                string name = cmd[2];
-                int points = int.Parse(cmd[3]);
+                string contest = input[0];
+                string password = input[1];
+                string name = input[2];
+                int points = int.Parse(input[3]);
 
-                if (contests.ContainsKey(contest))
+                if(contestPasswords.ContainsKey(contest))
                 {
-                    if (contests[contest] == password)
+                    if (contestPasswords[contest] == password)
                     {
-                        Contestant curr = new Contestant(name, new Dictionary<string, int>());
-                        curr.Contest.Add(contest, points);
-                        foreach (Contestant item in players)
+                        if (contestsDataBase.ContainsKey(name))
                         {
-                            if (item.Name == curr.Name && item.Contest.Keys == curr.Contest.Keys && item.Contest.Values < curr.Contest.Values)
+                            if (contestsDataBase[name].ContainsKey(contest))
+                            {
+                                if (contestsDataBase[name][contest] < points)
+                                {
+                                    contestsDataBase[name][contest] = points;
+                                }
+                            }
+                            else
+                            {
+                                contestsDataBase[name].Add(contest, points);
+                            }
+                        }
+                        else
+                        {
+                            contestsDataBase.Add(name, new Dictionary<string, int>());
+                            contestsDataBase[name].Add(contest, points);
                         }
                     }
                 }
-
-                cmd = Console.ReadLine()
-                .Split("=>")
+                input = Console.ReadLine()
+                .Split("=>", StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
             }
-        }
-    }
-    class Contestant
-    {
-        public Contestant(string name, Dictionary<string, int> contest)
-        {
-            Name = name;
-            Contest = contest;
-        }
 
-        public string Name { get; set; }
-        public Dictionary<string, int> Contest { get; set; }
+            int bestScore = int.MinValue;
+            string bestContestant = String.Empty;
+            foreach (var item in contestsDataBase)
+            {
+                if (item.Value.Values.Sum() > bestScore)
+                {
+                    bestScore = item.Value.Values.Sum();
+                    bestContestant = item.Key;
+                }
+            }
+            Console.WriteLine($"Best candidate is {bestContestant} with total {bestScore} points.");
+            Console.WriteLine($"Ranking: ");
+            foreach (var item in contestsDataBase.OrderBy(x => x.Key))
+            {
+                Console.WriteLine($"{item.Key}");
+                foreach (var contest in item.Value.OrderByDescending(x => x.Value))
+                {
+                    Console.WriteLine($"#  {contest.Key} -> {contest.Value}");
+                }
+            }
+        }
     }
 }
