@@ -29,15 +29,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.StudentAcademy", "07.Stu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.CompnayUsers", "08.CompnayUsers\08.CompnayUsers.csproj", "{1559F789-3566-4F94-8A74-4466DFB713BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ForceBook", "09.ForceBook\09.ForceBook.csproj", "{221BD056-B5D0-4BD4-9F47-6146436A3895}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.ForceBook", "09.ForceBook\09.ForceBook.csproj", "{221BD056-B5D0-4BD4-9F47-6146436A3895}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SoftUniExamResults", "10.SoftUniExamResults\10.SoftUniExamResults.csproj", "{06E35589-0322-4B12-9FC1-CB03ABF71384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.SoftUniExamResults", "10.SoftUniExamResults\10.SoftUniExamResults.csproj", "{06E35589-0322-4B12-9FC1-CB03ABF71384}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Judge", "02.Judge\02.Judge.csproj", "{98C25A44-4F3A-4F0F-953C-4336DD6D08A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Judge", "02.Judge\02.Judge.csproj", "{98C25A44-4F3A-4F0F-953C-4336DD6D08A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MOBAChallenger", "03.MOBAChallenger\03.MOBAChallenger.csproj", "{7EB8CB81-5FC6-4A22-BB9D-C3E2E740D44E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MOBAChallenger", "03.MOBAChallenger\03.MOBAChallenger.csproj", "{7EB8CB81-5FC6-4A22-BB9D-C3E2E740D44E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SnowWhite", "04.SnowWhite\04.SnowWhite.csproj", "{270CCECB-F8C4-414C-9348-EFB391419AF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.SnowWhite", "04.SnowWhite\04.SnowWhite.csproj", "{270CCECB-F8C4-414C-9348-EFB391419AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.DragonArmy", "05.DragonArmy\05.DragonArmy.csproj", "{C3A4AA76-5B97-404F-AABD-00FE62AD5D30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{270CCECB-F8C4-414C-9348-EFB391419AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{270CCECB-F8C4-414C-9348-EFB391419AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{270CCECB-F8C4-414C-9348-EFB391419AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A4AA76-5B97-404F-AABD-00FE62AD5D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A4AA76-5B97-404F-AABD-00FE62AD5D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A4AA76-5B97-404F-AABD-00FE62AD5D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A4AA76-5B97-404F-AABD-00FE62AD5D30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
